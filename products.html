@@ -36,7 +36,7 @@
 		<script>
 		$(document).ready(function(){
 			$("#oils").click(function(){
-				$(".pill").hide();
+				$(".supplements").hide();
 				$(".conditioner").hide();
 				$(".oils").show();
 				});
@@ -44,10 +44,10 @@
 		</script>
 		<script>
 		$(document).ready(function(){
-			$("#pill").click(function(){
+			$("#supplements").click(function(){
 				$(".oils").hide();
 				$(".conditioner").hide();
-				$(".pill").show();
+				$(".supplements").show();
 				});
 			});
 		</script>
@@ -55,16 +55,16 @@
 		$(document).ready(function(){
 			$("#conditioner").click(function(){
 				$(".oils").hide();
-				$(".pill").hide();
+				$(".supplements").hide();
 				$(".conditioner").show();
 				});
 			});
 		</script>
-		<button id=pill>pill</button>
+		<button id=supplements>supplements</button>
 		<button id=oils>oils</button>
 		<button id=conditioner>conditioner</button>
 			<!Repeated Section Begins>
-			<tr class=pill>
+			<tr class=supplements>
 				<td>
 					<img id="welcome" src="sugarbear.jpg" alt="propic" style="width:304px;height:228px;">
 					<a href="https://www.sugarbearhair.com/collections/all" </a>
@@ -108,6 +108,22 @@
 					<h2>
 					Curling Morocanoil: <br>
 					Moroccanoil naturally renews cell structure and consistently restores shines to dull lifeless hair.
+					</h2>
+				</td>
+			</tr>
+			<tr class=supplements>
+				<td>
+					<img id="welcome" src="hairfinity.jpg" alt="propic" style="width:304px;height:228px;">
+					<a href="http://www.hairfinity.com/" </a>
+					<FORM>
+						<INPUT TYPE="button" onClick="location.href='http://www.hairfinity.com/'"; value="see more">
+					</FORM>
+				</td>
+				<td>
+					<h2>
+					Hair supplements: <br>
+					Deeply Nourish Your Hair and Restore Vitality
+					Concentrated blend of oils….free of silicones, mineral oil, and petroleum
 					</h2>
 				</td>
 			</tr>
