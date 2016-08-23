@@ -35,12 +35,20 @@
 		<table>
 		<script>
 		$(document).ready(function(){
-			$("button").click(function(){
+			$("#wavy").click(function(){
 				$(".Curly").hide();
 				});
 			});
 		</script>
-		<button>Wavy</button>
+		<script>
+		$(document).ready(function(){
+			$("#curly").click(function(){
+				$(".Wavy").hide();
+				});
+			});
+		</script>
+		<button id=wavy>Wavy</button>
+		<button id=curly>Curly</button>
 			<!Repeated Section Begins>
 			<tr class=Curly>
 				<td>
