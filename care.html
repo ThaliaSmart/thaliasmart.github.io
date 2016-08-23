@@ -32,8 +32,39 @@
 		</h2>
 		<h1>
 		<table>
+		<script>
+		$(document).ready(function(){
+			$("#Tips").click(function(){
+				$(".Methods").hide();
+				$(".Other").hide();
+				$(".Tips").show();
+				});
+			});
+		</script>
+		<script>
+		$(document).ready(function(){
+			$("#Other").click(function(){
+				$(".Tips").hide();
+				$(".Methods").hide();
+				$(".Other").show();
+				});
+			});
+		</script>
+		<script>
+		$(document).ready(function(){
+			$("#Methods").click(function(){
+				$(".Tips").hide();
+				$(".Other").hide();
+				$(".Methods").show();
+				});
+			});
+		</script>
+		<button id=Tips>Tips</button>
+		<button id=Methods>Methods</button>
+		<button id=Other>Other</button>
+
 			<!Repeated Section Begins>
-			<tr>
+			<tr class=Tips>
 				<td>
 					<img id="welcome" src="hairtip1.jpg" alt="hairtip1" style="width:304px;height:228px;">
 					<a href="http://www.blackhairinformation.com/beginners/finding_a_regimen/the-only-hair-type-chart-that-really-matters/" </a>
@@ -49,7 +80,7 @@
 				</td>
 			</tr>
 			<!Repeated Section Ends>
-			<tr>
+			<tr class=Tips>
 				<td>
 					<img id="welcome" src="gurl-logo.jpg" alt="gurl-logo.jpg" style="width:304px;height:228px;">
 					<a href="http://www.gurl.com/2014/08/12/natural-hair-care-tips-tricks-stretching-growing-tutorials/" ></a></a>
@@ -64,7 +95,7 @@
 					</h2>
 				</td>
 			</tr>
-			<tr>
+			<tr class=Methods>
 				<td>
 					<img id="welcome" src="curlynikki.jpg" alt="curlynikki.jpg" style="width:304px;height:228px;">
 					<a href="http://www.curlynikki.com/2015/04/grow-hair-faster-with-inversion-method.html" ></a></a>
@@ -79,7 +110,7 @@
 					</h2>
 				</td>
 			</tr>
-			<tr>
+			<tr class=Other>
 				<td>
 					<img id="welcome" src="fathershair.jpg" alt="fathershair.jpg" style="width:304px;height:228px;">
 					<a href="http://naturalhairkids.com/4-natural-hair-care-tips-for-fathers/" </a>
@@ -92,7 +123,7 @@
 					</h2>
 				</td>
 			</tr>
-			<tr>
+			<tr class=Tips>
 				<td>
 					<img id="welcome" src="gurl-logo.jpg" alt="gurl-logo.jpg" style="width:304px;height:228px;">
 					<a href="http://www.gurl.com/2014/09/02/wavy-and-curly-hair-hacks-tips-and-tricks-you-need/" </a>
@@ -106,7 +137,7 @@
 					</h2>
 				</td>
 			</tr>
-			<tr>
+			<tr class=Tips>
 				<td>
 					<img id="welcome" src="17mag.png" alt="17mag.png" style="width:304px;height:228px;">
 					<a href="http://www.seventeen.com/beauty/hair/tips/g2684/curly-hair-tips-that-will-make-you-love-those-locks/" </a>
@@ -121,7 +152,7 @@
 					</h2>
 				</td>
 			</tr>
-			<tr>
+			<tr class=Tips>
 				<td>
 					<img id="welcome" src="blacknaps.jpg" alt="blacknaps.jpg" style="width:304px;height:228px;">
 					<a href="http://blacknaps.org/2013/10/27/the-basics-of-length-retention-4b-4c-hair/" </a>
@@ -135,7 +166,7 @@
 					</h2>
 				</td>
 			</tr>
-			<tr>
+			<tr class=Tips>
 				<td>
 					<img id="welcome" src="bglh.png" alt="bglh.png" style="width:304px;height:228px;">
 					<a href="http://blackgirllonghair.com/2012/07/9-time-saving-natural-hair-care-tips/" </a>
